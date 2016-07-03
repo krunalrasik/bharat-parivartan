@@ -90,6 +90,12 @@ p {
   font-size: inherit;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 footer.page-footer {
   margin-top: 50px;
 }
