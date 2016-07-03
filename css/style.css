@@ -6,9 +6,35 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
+nav {
+  position: absolute;
+  background-color: rgba(0,0,0,0.3);
+  box-shadow: none;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 13px;
+  z-index: 998;
+}
+
+nav .btn {
+  font-weight: bold;
+}
+
+nav .container {
+  width: 100%;
+  padding: 0 20px 0 20px;
+}
+
+nav ul a, nav .brand-logo{
+  color: #fff;
+}
+
+nav ul a {
+  font-size: 0.8rem;
+}
+
 nav .brand-logo {
-  color: #444;
+  font-size: 1.7rem;
 }
 
 p {
@@ -16,20 +42,35 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: rgba(0,0,0,0.7);
+}
+
+.parallax-header-text h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.parallax-header-text h5 {
+  font-family: 'Droid Serif', serif;
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-@media only screen and (max-width : 992px) {
+.parallax-container .section {
+  width: 100%;
+}
+
+#home-content .flow-text {
+  margin-top: 10px;
+}
+
+/*@media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
@@ -43,7 +84,7 @@ p {
   #index-banner .section {
     top: 0;
   }
-}
+}*/
 
 .icon-block {
   padding: 0 15px;
@@ -53,5 +94,19 @@ p {
 }
 
 footer.page-footer {
-  margin: 0;
+  margin-top: 50px;
+}
+
+footer img {
+  margin: 20px 0 0 15px;
+}
+
+footer.page-footer .footer-copyright {
+  color: rgba(0,0,0,0.54);
+  font-size: 12px;
+  font-weight: normal;
+}
+
+hr {
+  border: 1px solid #eeeeee;
 }
