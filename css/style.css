@@ -7,13 +7,10 @@
  */
 
 nav {
-  position: absolute;
-  background-color: rgba(0,0,0,0.3);
-  box-shadow: none;
+  background-color: #bf360c;
   font-weight: 100;
   letter-spacing: 2px;
   font-size: 13px;
-  z-index: 998;
 }
 
 nav .btn {
