@@ -102,6 +102,11 @@ p {
   background-color: #bf360c;
 }
 
+#faq-content .collapsible-header {
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
 footer.page-footer {
   margin-top: 50px;
 }
