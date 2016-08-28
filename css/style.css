@@ -6,8 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+html {
+  color: #616161;
+}
+
 nav {
-  background-color: #bf360c;
+  background-color: #c3092d;
   font-weight: 100;
   letter-spacing: 2px;
   font-size: 13px;
@@ -34,8 +38,26 @@ nav .brand-logo {
   font-size: 1.7rem;
 }
 
-p {
-  line-height: 2rem;
+.logo-img {
+  margin-bottom: 50px;
+}
+
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  color: #757575;
+  word-spacing: 10px;
+}
+
+.block-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.block-img {
+  margin-top: 10px;
+  margin-bottom: -50px;
 }
 
 .button-collapse {
@@ -95,11 +117,11 @@ p {
 }
 
 .tabs .tab a {
-  color: #bf360c;
+  color: #c3092d;
 }
 
 .tabs .indicator {
-  background-color: #bf360c;
+  background-color: #c3092d;
 }
 
 #faq-content .collapsible-header {
